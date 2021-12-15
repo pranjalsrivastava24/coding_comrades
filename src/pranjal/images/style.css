@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.offer_style{
+    background-color: rgb(135, 223, 223);
+}
+.carousel-item img{
+    width: 100%;
+    height: 93vh;
+}
+.about_img{
+    max-width: 240px;
+    max-height:280px;
+}
+.services .row{
+    margin-right: 0;
+    margin-left: 0;
+}
+footer p{
+    margin-bottom: 0;
+}
+ 

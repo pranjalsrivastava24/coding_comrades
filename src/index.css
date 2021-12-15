@@ -1,0 +1,364 @@
+body{
+    position: relative;
+    background-image:url("./images/Background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    
+}
+
+
+.main_professional{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.education{
+    outline: none;
+    border: none;
+    color: rgb(59, 37, 255)!important;
+}
+.education:focus{
+outline: none;
+
+}
+.next_personal{
+    color: white;
+}
+.work_btn{
+    outline: none;
+    border: none;
+  
+}
+.MuiButton-root{
+    color: rgb(59, 37, 255)!important;
+}
+.MuiButton-root:focus{
+    outline: none;
+}
+.previos_professional{
+    color: aliceblue!important;
+}
+.next_professional{
+    color: aliceblue!important;
+}
+
+.Skill_List{
+    border: rgb(53, 53, 53);
+    background-color: transparent;
+    width : 250px;
+    height : 300px;  
+    border-radius: 40px;
+    align-items: center;
+    
+}
+
+.skill_btn{
+    font-family: 'Original Surfer', cursive;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    outline: none !important;  
+    transition: ease 0.4s;  
+
+}
+.skill_btn:hover{
+    transform: scale(1.1,1.1);
+}
+    
+    
+
+.Skill_input{
+    width : 150px ;
+    height: 40px ;
+    margin: 0 40px;
+    align-items: center;
+    border:none ;
+    border-radius: 10px;
+    font-family: 'Original Surfer', cursive;
+    font-weight: bold;
+    text-align: center;
+    color :rgb(184, 73, 184);
+    outline: none;
+    background-color: transparent;
+    
+    
+}
+.add_skill{
+    border: none;
+    outline: none !important;
+    width : 35px;
+    height : 35px;
+    border-radius: 50%;
+    background-color: rgb(83, 81, 83);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Original Surfer', cursive;
+    margin-left: -25px ;
+    color : white;
+    transition: ease 0.4s;
+    justify-content: right;
+    
+}
+.todo_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.todo_style .fa-times {
+    width: 15px;
+    height: 15px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 73, 184);
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: azure;
+    box-shadow: 5px 5px 15px -5px rgb(0, 0, 0);
+    transition: ease 0.2s;
+}
+.todo_style .fa-times:hover{
+    background-color: rgb(180, 0, 0);
+    transform: scale(1.1,1.1);
+}
+
+li{
+    font-family: 'Original Surfer', cursive;
+    list-style: none;
+    font-weight: bold;
+    color: rgb(184, 73, 184);
+    font-size: 16px;
+}
+li::first-letter{
+    text-transform: uppercase;
+}
+.add_skill:hover{
+    background-color: rgb(51, 12, 48);
+    transform: scale(1.2,1.2);
+    color: rgb(255, 255, 255);
+}
+CloseIcon{
+    width: 15px;
+    height: 15px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 73, 184);
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: azure;
+    box-shadow: 5px 5px 15px -5px rgb(0, 0, 0);
+    transition: ease 0.2s;
+
+}
+.main_Skill_div{
+    border: rgb(43, 43, 43);
+}
+.professiona_skill{
+    display: flex;
+}
+
+.upload_container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.upload_h1{
+    font-size: 30px;
+}
+
+.X_ScoreCard{
+    border-radius: 5px;
+    
+}
+::-webkit-file-upload-button {
+    font-family: 'Original Surfer', cursive;
+    border-radius: 10px;
+    background-color: rgb(55, 101, 255);
+    color: aliceblue;
+    outline: none !important;  
+    transition: ease 0.4s;  
+    
+}
+.upload_caption{
+    font-family: 'Original Surfer', cursive;
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+}
+
+#formFile{
+    border-radius: 25px;
+    height: 42px;
+    border-width: 2px;
+    border-color: rgb(117, 117, 117);
+}
+#inputSelect{
+    border-radius: 25px;
+    height: 42px;
+    border-width: 2px;
+    border-color: rgb(117, 117, 117);
+    width : auto; 
+}
+.Varification_container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.varification_id{
+    font-family: 'Original Surfer', cursive;
+}
+.switch_btn{
+    font-family: 'Original Surfer', cursive;
+    border-radius: 10px;
+    background-color: rgb(0, 207, 79);
+    color: aliceblue;
+    outline: none !important;  
+    transition: ease 0.4s;  
+}
+.Bswitch_btn{
+    font-family: 'Original Surfer', cursive;
+    border-radius: 10px;
+    background-color: rgb(192, 0, 150);
+    color: aliceblue;
+    outline: none !important;  
+    transition: ease 0.4s;  
+}
+
+
+.submit_btn{
+    font-family: 'Original Surfer', cursive;
+    border-radius: 10px;
+    background-color: rgb(48, 45, 253);
+    color: aliceblue;
+    outline: none !important;  
+
+}
+.varify_m{
+    font-family: 'Original Surfer', cursive;
+    border-radius: 10px;
+    background-color: rgb(48, 45, 253);
+    color: aliceblue;
+    outline: none !important;  
+    width: 150px;  
+}
+.varify_input{
+    border-radius: 10px;
+    height: 30px;
+    border-width: 2px;
+    border-color: rgb(61, 61, 61);
+    outline: none !important;
+    background-color: transparent!important;
+
+}
+.send_code{
+    font-family: 'Original Surfer', cursive;
+    border-radius: 10px;
+    background-color: rgb(48, 45, 253);
+    color: aliceblue;
+    outline: none !important; 
+}
+.varify_code{
+    border-radius: 10px;
+    height: 30px;
+    border-width: 2px;
+    border-color: rgb(117, 117, 117);
+    outline: none !important;
+    background-color: transparent;
+
+}
+.varify_btn{
+    font-family: 'Original Surfer', cursive;
+    border-radius: 10px;
+    background-color: rgb(48, 45, 253);
+    color: aliceblue;
+    outline: none !important; 
+}
+.varify_sec{
+    display: flex;
+}
+#varification_btns{
+    display: flex;
+    flex-direction: column;
+}
+.main-caption{
+    font-family: 'Girassol', cursive;
+    border-radius: 20px;
+    background-color: black;
+    color: cornsilk;
+    margin: auto;
+}
+.markee{
+    margin: auto;
+    width : 100%;
+}
+.fb{
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    outline: none !important; 
+    border : none!important;
+}
+.fb:hover{
+    color: rgb(45, 0, 248);
+}
+.twit{
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    outline: none !important; 
+    border : none!important;
+}
+.twit:hover{
+    color: rgb(0, 153, 255);
+}
+.ig{
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    outline: none !important; 
+    border : none!important;
+}
+.ig:hover{
+    color: rgb(255, 0, 157)
+}
+.wp{
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    outline: none !important; 
+    border : none!important;
+}
+.wp:hover{
+    color: rgb(0, 168, 98);
+}
+.socialMedia{
+    width: 80%;
+    margin: auto;
+}
+.start-cap{
+    font-family: 'Original Surfer', cursive;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold ;
+}
+.form-label{
+    font-weight: bold;
+}
+.markee{
+    position: relative;
+}
+.container{
+    position: relative;
+}
+.form-control{
+    background-color: transparent;
+    border-width: 2px ;
+    border-color:rgb(105, 105, 105) ;
+    border-radius: 10px;
+}
